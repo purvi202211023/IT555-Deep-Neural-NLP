@@ -5,11 +5,13 @@ This repository contains a Jupyter notebook that demonstrates the training of a 
 
 **Dataset Selection**: Only research papers from the Computer Science domain are considered. 
 
-**Data Split**: A random training dataset of 3000 documents and a test dataset of 1000 documents are used.
+**Data Split**
+- A random training dataset of 3000 documents and a test dataset of 1000 documents are used.
 
-**Linguistic Unit**: Sentences are used as the linguistic unit for embedding, meaning we embed entire sentences rather than individual words.
+**Linguistic Unit**
+- Sentences are used as the linguistic unit for embedding, meaning we embed entire sentences rather than individual words.
 
-**Pre-processing**: The input context matrix undergoes a thorough cleanup which includes the removal of:   
+**Pre-processing**: The input context matrix undergoes a thorough cleanup which includes the removal of  
 - Stopwords
 - URLs
 - Bullets
@@ -17,8 +19,9 @@ This repository contains a Jupyter notebook that demonstrates the training of a 
 - Hyphens
 - Enumerations
 - Numerical-to-text conversion (using `num2words`)
-- Punctuations\n5.
-- **Initialization of Context Matrix**:
+- Punctuations
+  
+**Initialization of Context Matrix**
 - The context matrix is initialized using tf-idf based vector modeling.
 ### Libraries and Dependencies:
 `num2words`: Used for converting numbers to words. 
