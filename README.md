@@ -29,10 +29,6 @@ This repository contains a Jupyter notebook that demonstrates the training of a 
 `sklearn`: Specifically, the `TfidfVectorizer` is used for tf-idf based vector modeling.
 `pandas`: For data manipulation.
 `numpy`: For numerical operations.
-### Getting Started:
-1. Install the required libraries:```bash\npip install num2words nltk sklearn pandas numpy```
-2. Download necessary `nltk` data:```python\nimport nltk\nnltk.download('punkt')\nnltk.download('stopwords')```
-3. If you are using Google Colab, you can mount your Google Drive to access the dataset:```python\nfrom google.colab import drive\ndrive.mount('/content/drive')```
-4. Load the dataset and follow the instructions in the notebook to train the model.
+
 ### Acknowledgements:
-The project is based on the peS2o dataset which consists of research papers from the Computer Science domain.
+The project is based on the peS2o dataset. From this dataset we took only those research papers that are from the Computer Science domain.
