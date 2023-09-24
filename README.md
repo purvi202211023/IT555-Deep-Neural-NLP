@@ -2,8 +2,13 @@
 ## Word2Vec based Model for peS2o Dataset
 This repository contains a Jupyter notebook that demonstrates the training of a Word2Vec based model on the peS2o dataset. The dataset consists of research papers from the Computer Science domain.
 ### Key Features:
-**Dataset Selection**: Only research papers from the Computer Science domain are considered.\n2. **Data Split**: A random training dataset of 3000 documents and a test dataset of 1000 documents are used.\n3. 
-**Linguistic Unit**: Sentences are used as the linguistic unit for embedding, meaning we embed entire sentences rather than individual words.\n4. 
+
+**Dataset Selection**: Only research papers from the Computer Science domain are considered. 
+
+**Data Split**: A random training dataset of 3000 documents and a test dataset of 1000 documents are used.
+
+**Linguistic Unit**: Sentences are used as the linguistic unit for embedding, meaning we embed entire sentences rather than individual words.
+
 **Pre-processing**: The input context matrix undergoes a thorough cleanup which includes the removal of:   
 - Stopwords
 - URLs
