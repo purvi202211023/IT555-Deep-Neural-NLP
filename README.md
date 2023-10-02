@@ -30,5 +30,7 @@ This repository contains a Jupyter notebook that demonstrates the training of a 
 `pandas`: For data manipulation.
 `numpy`: For numerical operations.
 
+- Perform testing on multiple similar words.
+
 ### Acknowledgements:
 The project is based on the peS2o dataset. From this dataset we took only those research papers that are from the Computer Science domain.
